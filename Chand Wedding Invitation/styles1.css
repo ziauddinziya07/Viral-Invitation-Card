@@ -1,0 +1,117 @@
+.wrapper
+{
+      width: 40%;
+      margin: 0 auto;
+      border: 2px solid white;
+      border-radius: 20px;
+      background-image: linear-gradient(to bottom right, #3d0099 20%, #4d0099 30%, #3d0066 70%);
+      box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.61), -2px -2px 20px rgba(0, 0, 0, 0.603);
+      top: 20%;
+      left: 30%;
+      position: absolute;
+      padding-bottom: 60px;
+      text-shadow: 0px 0px 2px gold;
+}
+
+.wrapper form
+{
+      color: white;    
+      font-size: 18px;
+      font-family: tahoma; 
+      width: 65%;
+      margin: 0 auto;
+}
+
+h1
+{
+      display: block;
+      text-align: center;
+      text-decoration: underline;
+      font-size: 60px;
+      font-family: 'Rouge Script', cursive; 
+      color: white;
+      margin-bottom: 10px;
+}
+
+.wrapper .name
+{
+      margin-bottom: 15px;
+}
+
+.wrapper #field
+{
+      background-color: transparent;
+      border: 2px solid white;
+      color: white;
+      padding: 4px;
+      margin-left: 20px;
+}
+.wrapper #field:focus
+{
+      border-bottom: 2px solid gold;
+}
+
+.wrapper .radbtn
+{
+      margin-left: 15%;
+      margin-top: 10px;
+}
+
+.radbtn input[type=radio]
+{
+      width: 15px;
+      height: 15px;
+      box-shadow: 0px 0px 4px gold, 0px 0px 4px gold;
+}
+
+.wrapper input[type=submit]
+{
+      display: block;
+      margin:  20px auto 0 auto;
+      background-color: white;
+      font-size: 18px;
+      padding: 5px 20px;
+      font-weight: 600;
+      color: rgba(253, 194, 0, 0.808);
+      border: 2px solid white;
+      border-radius: 10px;
+      box-shadow: 1px 1px 2px gold, -1px -1px 2px gold;
+}
+
+
+@media screen and (min-height: 1200px)
+{
+      .wrapper
+      {
+            width: 60%;
+            left: 20%;
+            text-shadow: 0px 0px 4px gold;
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.61), -5px -5px 30px rgba(0, 0, 0, 0.603);
+            border-width: 4px;
+      }
+      h1 { font-size: 100px; margin-bottom: 30px; }
+      .wrapper form { width: 60%; font-size: 30px; }
+      .wrapper #field
+      {
+            width: 300px;
+            font-size: 30px;
+      }
+      .wrapper .radbtn { margin-top: 20px; }
+      .radbtn input[type=radio] 
+      {
+            width: 25px;
+            height: 25px;
+            box-shadow: 0px 0px 8px gold;
+      }
+      .wrapper input[type=submit]
+      {
+            background-color: white;
+            font-size: 35px;
+            margin:  50px auto 20px auto;
+            border: 3px solid white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+            padding: 10px 30px;
+      }
+
+}

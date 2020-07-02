@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=0">
+            <title>Invitee Details</title>
+
+            <link rel="icon" href="Golden.jpg">
+            <link rel="apple-touch-icon" href="Golden.jpg">
+            <link rel="stylesheet" href="styles1.css"> 
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@1,600&family=Rouge+Script&display=swap" rel="stylesheet">
+    
+      </head>
+
+      <body onload="document.querySelector('#field').focus();">
+            
+            <div class="wrapper">
+
+                  <h1>Invitee Details</h1>
+
+                  <form action="work.php" method="POST" onsubmit="return validate()">
+
+                        <div class="main">
+                              <div class="name">
+                                    <label class="lab">Invitee Name</label>
+                                    <input id="field" type="text" name="name" placeholder="Enter Invitee Name" required>
+                              </div>
+                              <label class="lab">Invitation is For</label>
+                              <div class="radbtn">
+                                    <input type="radio" name="b" id="b1" value="single" required>
+                                    <label for="b1">Single...</label>                              
+                              </div><div class="radbtn">
+                                    <input type="radio" name="b" value="Family" id="b2">
+                                    <label for="b2">All Family Members...</label>                              
+                              </div>
+                        </div>
+
+                        <input type="submit" value="Generate Link">    
+                        
+                        
+                  </form>
+
+            </div>
+
+            
+
+      </body>
+      
+</html>

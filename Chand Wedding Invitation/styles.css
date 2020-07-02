@@ -1,0 +1,307 @@
+.wrapper
+{
+      width: 70%;
+      padding: 20px;
+      margin: 40px auto;
+      background-image: linear-gradient(to bottom right, #3d0099 20%, #4d0099 30%, #3d0066 70%);
+      box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.61), -3px -3px 20px rgba(0, 0, 0, 0.603);
+      border-radius: 10px;
+      z-index: -3;
+}
+
+.main
+{
+      border: 1px solid transparent;
+      border-image-source: url("Flowers.png");
+      border-image-slice: 25 26 38 46;
+      border-image-width: 25px 25px 25px 25px;
+      border-image-outset: 0px 0px 0px 0px;
+      border-image-repeat: round round;  
+      padding: 50px;     
+      z-index: -2;
+}
+
+/* We Begin with the name of Allaah the most Beneficent,
+the Most Merciful.... */
+.begin
+{
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      font-size: 30px;
+      color: #ffcc00;
+      border-bottom: 1px solid transparent;
+      border-image-source: url("Flowers.png");
+      border-image-slice: 0 0 256 0;
+      border-image-width: 8px;
+      border-image-repeat: round;
+      padding-bottom: 10px;
+      animation: glow 2s infinite;
+}
+.begin .pic
+{
+      width: 20%;
+      display: block;
+      margin: 0 auto;
+}
+
+.from
+{      
+      margin-top: 30px;
+      color: #ffcc00;
+}
+.from .name
+{
+      display: block;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 30px;
+}
+.from .txt 
+{
+      font-size: 18px;
+      display: block;
+      text-align: center;
+      font-style: italic;
+      margin-top: 20px;
+}
+/* To Alijanaab */
+.from #name
+{
+      font-size: 30px;
+}
+
+/* Couple Names */
+.main .cover
+{
+      position: relative;
+      overflow: hidden;          
+}
+.cover img
+{
+      width: 45%;
+      top: 20%;
+      left: 50%;    
+      margin-left: -22%;  
+      display: block;    
+      position: absolute;
+      opacity: 0.2;
+}
+.main .couple
+{
+      text-align: center;
+      margin: 20px auto;
+      color: #ffcc00; 
+      width: 45%;
+      border: 5px dotted gold;
+      border-radius: 50%;
+      padding: 10%;
+      position: relative;
+}
+.couple .name
+{
+      font-size: 60px;
+      font-family: 'Rouge Script', cursive; 
+      animation: glow 2s infinite;   
+}
+.couple .sub
+{
+      font-size: 20px;
+      font-family: courier;
+}
+.couple .gname
+{
+      font-style: italic;
+      font-size: 20px;
+}
+.couple .with
+{
+      margin: 0 auto;
+      display: block;
+      border: 3px dotted goldenrod;
+      border-radius: 50%;
+      width: 20%;
+      font-size: 40px;
+      font-family: 'Rouge Script', cursive;
+      padding: 5% 3%;
+      animation: glow 2s infinite;  
+}
+@keyframes glow
+{
+      0% { color: #ffcc00; }
+      50% { color: #fffb00; text-shadow: 0 0 4px #ffcc00; }
+      100% { color: #ffcc00;  }
+}
+
+
+/* Events: Nikaah, Valima and Shukrana */
+.container1
+{
+      position: relative;
+      overflow: hidden;
+}
+.container1 .events
+{
+      position: relative;
+      text-align: center
+}
+.events img
+{
+      width: 100%;
+      height: 108%;
+      position: absolute;
+      top: -3%;
+      display: block;
+      opacity: 0.2;
+      border-radius: 20px;
+}
+.events .shukrana
+{
+      color: white;
+      display: block;
+      text-align: center;
+      font-style: italic;
+}
+.events table
+{
+      width: 100%;
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-style: italic;
+}
+.events table td:nth-child(2)
+{
+      border-left: 4px dotted gold;
+}
+.events .head, .container1 legend
+{
+      font-family: 'Playfair Display', serif;
+      font-size: 30px;
+      color: gold;
+      margin: 5px auto;
+      padding: 0 10px;
+      text-shadow: 0 0 4px #ffcc00;
+}
+.events .smallhead
+{
+      font-size: 22px;
+}
+.container1 fieldset
+{
+      border: 2px solid gold;
+      border-radius: 20px;
+}
+
+
+/* With Best Compliments From  */
+.container2 fieldset
+{
+      margin-top: 30px;
+      border: 3px dotted gold;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      font-style: italic;
+}
+.container2 legend
+{
+      font-size: 30px;
+      color: gold;
+      padding: 10px;
+}
+.container2 .names
+{
+      font-size: 15px;
+      line-height: 20px;
+}
+
+
+.contact
+{
+      font-size: 15px;
+      margin-top: 20px;
+      text-align: center;
+      color: white;
+}
+
+
+.link
+{
+      text-align: center;
+      margin: 0 0 50px 0;      
+}
+.link input[type=button]
+{
+      background-color: rgb(52, 224, 30);
+      color: white;
+      font-size: 16px;
+      padding: 10px 15px;
+      border: 2px solid rgb(52, 224, 30);
+      border-radius: 8px;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.61), -1px -1px 10px rgba(0, 0, 0, 0.61);
+}
+
+
+
+/* Signature */
+.signature
+{
+      width: 40px;
+      border: 1px solid gold;
+      border-radius: 10px;
+      right: 0;
+      bottom: 0;
+      margin: 0 30px 40px 0;
+      position: fixed;
+      font-size: 8px;
+      font-family: 'Rouge Script', cursive;
+      padding: 5px;
+      line-height: 10px;
+      animation: sign 2s infinite;
+      color: gold;
+}
+@keyframes sign 
+{
+      0% { color: gold; }
+      50% { color: white; }
+      100% { color: gold; }
+}
+
+
+
+
+/* Responsive Work */
+@media screen and (min-height: 1200px)
+{
+      .wrapper 
+      {
+            width: 85%;
+            margin: 50px auto;
+      }
+      .begin .pic
+      {
+            width: 15%;
+      }
+      .from .txt 
+      {
+            font-size: 12px;
+      }
+      .couple .with
+      { width: 15%; }
+      .main .couple
+      {
+            margin: 40px auto;
+            width: 35%;
+            padding: 10% 12%;
+      }
+      .cover img { margin-left: -17%; }
+      .couple .name
+      { font-size: 70px; }
+      .cover img { top: 18%; width: 35%; }
+      .container1 { font-size: 25px; }
+      .container1 .smallhead { font-size: 35px; }
+      .container1 .head, .container1 legend { font-size: 45px; }
+      .contact { font-size: 6px; }
+      .link input[type=button] { font-size: 35px; padding: 20px 25px; }
+}
